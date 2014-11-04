@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    >
+	
+	<RelativeLayout
+   	    android:layout_width="match_parent"
+   	    android:layout_height="@dimen/top_title_height"
+   	    android:orientation="horizontal"
+   	    android:gravity="center_vertical"
+   	    android:padding="5dp"
+   	    >
+   	    
+   	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:id="@+id/nameTxt"
+	        android:textSize="20sp"
+	        android:textColor="@color/dark"
+	        android:text="详细信息"
+	        android:layout_alignParentLeft="true"
+            />
+   	    
+   	    <Button 
+   	        android:id="@+id/bt_fresh"
+   	        android:layout_width="wrap_content"
+   	        android:layout_height="match_parent"
+   	        android:layout_alignParentRight="true"
+   	        android:background="@drawable/button_selector"
+   	        android:text="刷新"
+   	        />
+	</RelativeLayout>
+    
+    <ExpandableListView 
+        android:id="@+id/el_issue_info"                 
+        android:layout_width="fill_parent"                  
+        android:layout_height="fill_parent"   
+        android:padding="5dp"
+        android:drawSelectorOnTop="false"
+        android:cacheColorHint="#00000000"
+        />
+    
+</LinearLayout>

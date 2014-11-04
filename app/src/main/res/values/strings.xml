@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">欢迎使用</string>
+    <string name="app_name">SDUT Device</string>
+    <string name="edit">编辑</string>
+    <string name="cancel">返回</string>
+    <string name="scan">扫描</string>
+    <string name="save">保存</string>
+    <string name="check">清查</string>
+    <string name="title_activity_user_login">用户登录系统</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="username">用户名:</string>
+    <string name="password">密 码:</string>
+    <string name="loginTitle">用户登录系统</string>
+    <string name="remember">记住密码</string>
+    <string name="login">登录</string>
+    <string name="exit">退出</string>
+    <string name="hint_username">username</string>
+    <string name="hint_password">password</string>
+    <string name="anonymous">匿名登录</string>
+    <string name="issue_title">简述(50字以内)</string>
+    <string name="issue_desc">详细信息(140字以内)</string>
+    <string name="nav_fix_name">维护记录</string>
+    <string name="title_activity_input_issue">InputIssue</string>
+    <string name="acount_or_password_wrong">帐号或密码错误</string>
+    <string name="input_issue">提交</string>
+    <string name="input_to">\@</string>
+    <string name="title_activity_note">NoteActivity</string>
+    <string name="title_activity_note_edit">NoteEditActivity</string>
+    <string name="title_activity_basic_info">BasicInfoActivity</string>
+    <string name="title_activity_issue_info">IssueInfoActivity</string>
+    <string name="title_activity_history">HistoryActivity</string>
+
+</resources>

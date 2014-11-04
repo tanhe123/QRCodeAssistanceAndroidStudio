@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>
+        <!-- 设置按钮的形状是矩形的 -->
+        <shape android:shape="rectangle" >
+            <!-- 设置线样式 -->
+             <!-- <solid android:color="#AFEC7600"/>--> 
+            <corners
+                android:bottomLeftRadius="20dip"
+                android:bottomRightRadius="20dip"
+                android:topLeftRadius="20dip"
+                android:topRightRadius="20dip" />
+        </shape>
+    </item>
+    <item
+        android:bottom="0px"
+        android:left="0px"
+        android:right="0px"
+        android:top="0px">
+        <shape>
+            <gradient
+                android:angle="90"
+                android:centerX="0.5"
+                android:centerY="0.5"
+                android:endColor="#F5FAFE"
+                android:startColor="#3EA3F1"
+                android:type="linear" />
+
+            <corners
+                android:bottomLeftRadius="10dip"
+                android:bottomRightRadius="10dip"
+                android:topLeftRadius="10dip"
+                android:topRightRadius="10dip" />
+        </shape>
+    </item>
+
+</layer-list>

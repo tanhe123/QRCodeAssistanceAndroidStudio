@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sdutlinux"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="10" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.sdutlinux.UserLoginActivity"
+            android:label="@string/title_activity_user_login" >
+            <intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sdutlinux.QRCodeAssistance"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.zxing.activity.CaptureActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name="com.sdutlinux.ShowInfoActivity"
+            android:label="欢迎" >
+        </activity>
+        <activity
+            android:name="com.sdutlinux.InputIssueActivity"
+            android:label="@string/title_activity_input_issue" >
+        </activity>
+        <activity
+            android:name="com.sdutlinux.NoteActivity"
+            android:label="@string/title_activity_note" >
+        </activity>
+        <activity android:name="com.sdutlinux.NoteEditActivity" >
+        </activity>
+        <activity
+            android:name="com.sdutlinux.BasicInfoActivity"
+            android:label="@string/title_activity_basic_info" >
+        </activity>
+        <activity
+            android:name="com.sdutlinux.IssueInfoActivity"
+            android:label="@string/title_activity_issue_info" >
+        </activity>
+
+        <uses-library android:name="android.test.runner" />
+
+        <activity
+            android:name="com.sdutlinux.HistoryActivity"
+            android:label="@string/title_activity_history" >
+        </activity>
+    </application>
+
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:targetPackage="com.sdutlinux" />
+
+</manifest>

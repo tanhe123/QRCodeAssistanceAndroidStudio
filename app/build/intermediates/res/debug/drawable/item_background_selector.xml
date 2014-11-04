@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_pressed="true" android:drawable="@drawable/item_background_select"></item>
+	
+</selector>
+<!-- From: file:/home/tan/AndroidStudioProjects/QRCodeAssistance/app/src/main/res/drawable/item_background_selector.xml -->

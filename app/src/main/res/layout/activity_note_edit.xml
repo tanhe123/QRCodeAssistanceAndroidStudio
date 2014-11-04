@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main_bg"
+    android:padding="5dp"
+	>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        
+        <Button 
+            android:id="@+id/bt_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/tab_bar_cancel_selector"
+            />
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="编辑备忘"
+            android:textSize="15sp"
+            />
+        
+        <Button 
+			android:id="@+id/bt_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tab_bar_save_selector"
+            android:layout_alignParentRight="true"
+            />
+        
+    </RelativeLayout>
+    
+  	<EditText
+  	    android:layout_width="match_parent"
+  	    android:layout_height="match_parent"
+  	    android:id="@+id/et_content"
+  	    android:gravity="left|top"
+  	    android:layout_marginTop="10dp"
+  	    android:background="@drawable/edittext_bg"
+  	    android:inputType="textMultiLine"
+  	    android:padding="20dp"
+  	    />
+
+</LinearLayout>

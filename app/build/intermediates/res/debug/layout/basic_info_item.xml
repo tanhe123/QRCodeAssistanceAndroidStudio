@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    
+	<TextView 
+	    android:layout_width="0dp"
+        android:layout_weight="3"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/key"
+	    android:text="key"
+	    android:textSize="25sp"
+	    android:textColor="@color/dark"
+	    />
+	
+	<TextView 
+	    android:layout_width="0dp"
+        android:layout_weight="4"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/value"
+	    android:textSize="25sp"
+	    android:text="value"
+	    android:textColor="@color/dark"
+	    />
+
+</LinearLayout>
+<!-- From: file:/home/tan/AndroidStudioProjects/QRCodeAssistance/app/src/main/res/layout/basic_info_item.xml -->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+    
+    <GridView
+       	android:id="@+id/gv_main"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:listSelector="@drawable/item_background_selector"
+		android:verticalSpacing="8dip"
+		android:layout_margin="10dip"
+		android:numColumns="2" 
+		/>
+    
+    
+</LinearLayout>
